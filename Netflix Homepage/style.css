@@ -1,0 +1,169 @@
+.main {
+    height: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./assets/netflixback.jpg");
+    background-size: cover;
+    color: white;
+    height: 40rem;
+    margin-bottom: 0.25rem;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header #netflix {
+    color: red;
+    margin-left: 2rem;
+}
+
+.head-btns {
+    align-self:center;
+    margin-right: 2rem;
+}
+.head-btns select, .language-btn select{
+    height: 2rem;
+    width: 6rem;
+    background:none;
+    color: white;
+    font-weight: 700;
+}
+
+.head-btns button {
+    height: 2rem;
+    width: 5rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: 700;
+}
+
+.membership {
+    align-self: center;
+}
+
+.membership input {
+    height: 3rem;
+    width: 30rem;
+    padding-left: 1rem;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border: 1px grey solid;
+    border-radius: 0.2rem;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.membership button {
+    height: 3.5rem;
+    width: 10rem;
+    border-radius: 0.2rem;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-radius: 0.3rem;
+}
+
+.second , .third, .fourth, .fifth{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    height: 40rem;
+}
+
+.image img {
+    width: 40rem;
+    height: 20rem;
+    margin: 1rem;
+}
+
+.image {
+    align-self: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.fourth img {
+    height: 35rem;
+    width: 30rem;
+}
+
+.fifth img {
+    height: 30rem;
+    width: 35rem;
+}
+
+.frequently-asked-questions {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 65rem;
+    justify-content: center;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+}
+
+.ques {
+    display: flex;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    justify-content: space-between;
+    background-color:rgb(70, 69, 69);
+    color: white;
+    align-self: center; 
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50rem;
+    height: 4rem;
+}
+
+.footer {
+    background-color: black;
+    margin-top: 0.25rem;
+    color: rgb(194, 191, 191);
+}
+
+.links {
+    display: flex;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+
+.link-list {
+    margin-right: 8rem;
+    margin-left: 8rem;
+}
+
+.link-list li {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.link-list li a{
+    text-decoration: none;
+    color: rgb(194, 191, 191);
+}
